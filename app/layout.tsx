@@ -22,14 +22,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={` ${dmSans.variable} antialiased`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={` ${dmSans.variable} relative antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
+          <div className="bg-grid-mask absolute inset-0 -z-10"></div>
           {children}
         </ThemeProvider>
       </body>
