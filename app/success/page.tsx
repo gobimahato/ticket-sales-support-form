@@ -1,7 +1,13 @@
+// UI Components
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import Link from "next/link";
 
+/**
+ * SuccessPage component
+ * - Displays a confirmation message after successful form submission.
+ * - Responsive and supports both light and dark mode.
+ */
 export default function SuccessPage() {
   return (
     <>
