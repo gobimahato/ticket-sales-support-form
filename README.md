@@ -12,8 +12,8 @@ A simple Next.js ticket form for sales and support.
 
 ## Live Demo
 
-[Vercel Deployment](https://your-vercel-link.vercel.app)
+[Vercel Deployment](https://ticket-sales-support-form.vercel.app/)
 
 ## Preview
 
-![Preview](preview.png)
+![Preview](./public/preview.png)
